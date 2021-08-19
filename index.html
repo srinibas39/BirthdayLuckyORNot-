@@ -1,37 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Birthday Lucky or Note</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-     <div class="container">
-         <h1>Birthday Lucky or Not</h1>
-           <div class="privacyNotice">
-               <p>We are not storing data</p>
-           </div>
-          <p class="description">Find out your Birthday is lucky or Not</p>
-          <div>
-              <label for="birthday-date"></label>
-              <input type="date" name="" id="birthdayDate">
-          </div>
-          <div>
-              <label for="luckyNumber"></label>
-              <input type="number" name="" id="luckyNumber">
-          </div>
-          <button class="btn-check">check</button>
-          <p class="result"></p>
-          <footer>
-              <ul>
-                  <li><a href="">social 1</a></li>
-                  <li><a href="">social 2</a></li>
-                  <li><a href="">social 3</a></li>
-              </ul>
-          </footer>
-     </div>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Birthday Lucky or Not</h1>
+      
+
+      <p class="privacyNotice">We are not storing data</p>
+      <p class="description">Find out your Birthday is lucky or Not</p>
+      <div class="section">
+        <div>
+          <label for="birthday-date">Enter your DOB </label>
+          <input type="date" name="" id="birthdayDate" />
+        </div>
+        <div>
+          <label for="luckyNumber">Enter your Lucky number</label>
+          <input type="number" name="" id="luckyNumber" />
+        </div>
+        <button class="btn-check">check</button>
+        <p class="result"></p>
+      </div>
+      <div class="footer">
+        <div class="f1">
+          <a href="https://mobile.twitter.com/Srinibas_39"><i class="fab fa-twitter"></i> Twitter</a>
+        </div>
+        <div class="f2">
+          <a href="https://www.linkedin.com/in/srinibas-khuntia-bbb496154/"><i class="fab fa-linkedin-in"></i> Linkedin</a>
+        </div>
+        <div class="f3">
+          <a href="https://github.com/srinibas39"><i class="fab fa-github"></i> Github</a>
+        </div>
+      </div>
+    </div>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
