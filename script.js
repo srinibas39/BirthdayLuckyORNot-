@@ -3,9 +3,12 @@ let birthDayDate=document.querySelector("#birthdayDate");
 let luckyNumber=document.querySelector("#luckyNumber");
 let result=document.querySelector(".result");
 checkButton.addEventListener("click",function(e){
-    let birthDayDateValue=birthDayDate.value.replaceAll("-","");
-    let luckyNumberValue=luckyNumber.value;
-    checkBirthLucky(birthDayDateValue,luckyNumberValue);
+    if(birthDayDate.value!=""&&luckyNumber.value!=""){
+
+        let birthDayDateValue=birthDayDate.value.replaceAll("-","");
+        let luckyNumberValue=luckyNumber.value;
+        checkBirthLucky(birthDayDateValue,luckyNumberValue);
+    }
 })
 
 function checkBirthLucky(DOB,luckyNo){
